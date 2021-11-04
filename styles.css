@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Teko:300,regular,500,600,700);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:grid;
+    justify-content:center;
+    align-items: center;
+    font-family: teko, sans-serif;
+    color: white;
+    background-color: #111;
+}
+.btn{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 6vw;
+    margin: 0;
+    padding: 20px 0 0 0;
+    text-shadow: 5px 5px 2px rgb(153, 146, 146);
+}
+button{
+    padding: 7px;
+    background-color: rgb(37, 37, 190);
+    font-family: teko, sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    border: none;
+    cursor: pointer;
+}
+
+#content{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+button:hover{
+    transform: scale(1.05);
+}
+p{
+    padding: 0 10vw 0 10vw;
+    font-size: 1.3vw;
+}
+img{
+    margin-left: 25vw;
+    width: 50vw;
+    height: 30vw;
+}
+@media screen and (max-width: 780px){
+    h1{
+        font-size: 20vw;
+        margin: 0;
+        padding: 20px 0 0 0;
+        text-shadow: 5px 5px 2px rgb(153, 146, 146);
+    }
+    button{
+        width: 25vw;
+        padding: 7px;
+        background-color: rgb(37, 37, 190);
+        font-family: teko, sans-serif;
+        color: white;
+        font-size: 3vw;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover{
+        transform: scale(1.05);
+    }
+    p{
+        padding: 0 20vw 0 20vw;
+        font-size: 3.9vw;
+    }
+    img{
+        margin-right: 24vw;
+        width: 80vw;
+        height: 50vw
+    }
+}    
